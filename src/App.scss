@@ -7,10 +7,68 @@
   }
 
   .navbar {
-    
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 9%;
+      width: 100%;
+      background-color: green;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+  
+      .menu {
+        position: relative;
+        top: 0;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+  
+        h2 {
+          color: white;
+          padding-left: 2rem;
+        }
+      }
+  
+      .bm-burger-button {
+        position: relative;
+        align-self: flex-end;
+        margin-left: 2rem;
+        height: 0.55rem;
+        width: 0.5rem;
+        background-color: green;
+        padding: 0.5rem;
+  
+        .bm-burger-bars {
+          background: white;
+        }
+      }
+  
+      .bm-cross {
+        background: white;
+      }
+  
+      .bm-menu {
+        background: green;
+        font-size: 1.15em;
+        padding-top: 3rem;
+        margin-left: 5rem;
 
-    .menu {
-      background-color: red;
-    }
+        .link {
+          font-size: 2rem;
+          text-decoration: none;
+          color: white;
+        }
+      }
+      .bm-item {
+        display: inline-block;
+      }
+
+      .bm-overlay {
+        position: fixed;
+        top: 0;
+      }
   }
 }

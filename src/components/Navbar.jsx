@@ -6,8 +6,8 @@ class Navbar extends React.Component {
     render() {
         return (
             <div className="navbar">
-                <Menu right isOpen={false}  className={"menu"}>
-                    <Link to="/">Home</Link>
+                <Menu left isOpen={false}  className={"menu"}>
+                    <Link to="/" className={"link"}>Home</Link>
                 </Menu>
             </div>
         )
